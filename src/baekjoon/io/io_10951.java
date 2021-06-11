@@ -1,18 +1,15 @@
-package com.baekjoon.io;
+package baekjoon.io;
 
 import java.util.Scanner;
 
-public class io_11021 {
+public class io_10951 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int t = sc.nextInt();
-
-        for(int i=1; i <= t; i++){
+        while (sc.hasNext()){
             int a = sc.nextInt();
             int b = sc.nextInt();
-            int sum = a+b;
-            System.out.println("Case #"+i+": " + sum);
+            System.out.println(a+b);
         }
     }
 }

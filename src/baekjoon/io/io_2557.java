@@ -1,4 +1,4 @@
-package com.baekjoon.io;
+package baekjoon.io;
 
 public class io_2557 {
     public static void main(String[] args) {
