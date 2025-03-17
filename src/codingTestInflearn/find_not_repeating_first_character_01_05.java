@@ -6,20 +6,25 @@ public class find_not_repeating_first_character_01_05 {
         String result = "_";
         char[] arrAlphabet = new char[26];
         char[] chars = str.toCharArray();
-        char firstChar = 0;
 
         for (int i = 0; i < chars.length; i++) {
             int arrIdx = chars[i] - 'a';
-            if (arrAlphabet[arrIdx] == 0 && firstChar != chars[i]) {
-                firstChar = chars[i];
+            if (arrAlphabet[arrIdx] == 0) {
                 arrAlphabet[arrIdx] = chars[i];
             } else {
-                result = String.valueOf((char)arrAlphabet[arrIdx]);
-                return result;
+                arrAlphabet[arrIdx] = 0;
             }
         }
 
-        return "_";
+        for (int i = 0; i < chars.length; i++) {
+            int arrIdx = chars[i] - 'a';
+            if (arrAlphabet[arrIdx] != 0) {
+                result = String.valueOf(arrAlphabet[arrIdx]);
+                break;
+            }
+        }
+
+        return result;
     }
 
     public static void main(String[] args) {
