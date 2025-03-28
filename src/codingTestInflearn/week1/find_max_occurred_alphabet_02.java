@@ -1,4 +1,4 @@
-package codingTestInflearn;
+package codingTestInflearn.week1;
 
 import java.util.*;
 

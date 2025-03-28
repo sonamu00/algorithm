@@ -1,4 +1,4 @@
-package codingTestInflearn;
+package codingTestInflearn.week1;
 
 public class find_not_repeating_first_character_01_05 {
 

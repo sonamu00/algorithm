@@ -1,4 +1,4 @@
-package codingTestInflearn;
+package codingTestInflearn.week1;
 
 public class find_max_num_01 {
 

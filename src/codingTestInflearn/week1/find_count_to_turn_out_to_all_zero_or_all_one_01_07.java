@@ -1,4 +1,4 @@
-package codingTestInflearn;
+package codingTestInflearn.week1;
 
 public class find_count_to_turn_out_to_all_zero_or_all_one_01_07 {
     public static int find_count_to_turn_out_to_all_zero_or_all_one(String input) {
