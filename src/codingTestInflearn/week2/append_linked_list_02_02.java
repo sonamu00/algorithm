@@ -24,4 +24,10 @@ public class append_linked_list_02_02 {
 
     }
 
+    public static void main(String[] args) {
+
+    }
+
 }
+
+
