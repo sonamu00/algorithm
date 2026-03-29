@@ -1,7 +1,5 @@
 package codingTestInflearn.week2;
 
-import java.util.*;
-
 class LinkedListAppend {
 
     Node head;
